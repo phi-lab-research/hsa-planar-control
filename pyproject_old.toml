@@ -113,7 +113,7 @@ dependencies = [ # Optional
     "pandas",
     "sympy",
     "tornado",
-    "jsrm @ git+ssh://git@github.com/tud-cor-sr/jax-soft-robot-modelling.git"
+    "jsrm @ git+ssh://git@github.com/phi-lab-research/jsrm.git"
 ]
 
 # List additional groups of dependencies here (e.g. development
@@ -160,9 +160,9 @@ test = [
 # maintainers, and where to support the project financially. The key is
 # what's used to render the link text on PyPI.
 [project.urls]  # Optional
-"Homepage" = "https://github.com/tud-cor-sr/jax-soft-robot-modelling"
-"Bug Reports" = "https://github.com/tud-cor-sr/jax-soft-robot-modelling/issues"
-"Source" = "https://github.com/tud-cor-sr/jax-soft-robot-modelling"
+"Homepage" = "https://github.com/phi-lab-research/hsa-planar-control"
+"Bug Reports" = "https://github.com/phi-lab-research/hsa-planar-control/issues"
+"Source" = "https://github.com/phi-lab-research/hsa-planar-control"
 
 # The following would provide a command line executable called `sample`
 # which executes the function `main` from this package when invoked.

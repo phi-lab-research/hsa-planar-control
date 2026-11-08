@@ -41,7 +41,7 @@ Please use the following citation if you use our software in your (scientific) w
 
 This repository also contains various ROS2 nodes for planning and control. 
 As usual, clone this repository into your ROS2 workspace and build it with `colon build.`
-Furthermore, we rely on the ROS2 packages in the [ros2-hsa](https://github.com/tud-phi/ros2-hsa) repository for the communication with the hardware (both actuation and motion capture), inverse kinematics and visualization.
+Furthermore, we rely on the ROS2 packages in the [ros2-hsa](https://github.com/phi-lab-research/ros2-hsa) repository for the communication with the hardware (both actuation and motion capture), inverse kinematics and visualization.
 You can launch the nodes with `ros2 launch hsa_planar_control ./launch/hsa_planar_cl_control.py`.
 
 ## System identification
@@ -51,10 +51,10 @@ You can use the provided script `examples/system_identification/epu_identify_sys
 ## See also
 
 You might also be interested in the following repositories:
- - The [`jax-soft-robot-modelling`](https://github.com/tud-phi/jax-soft-robot-modelling) repository contains a JAX implementation 
+ - The [`jax-soft-robot-modelling`](https://github.com/phi-lab-research/jsrm) repository contains a JAX implementation 
  of various soft robot models, which can be, for example, used to simulate the robot's forward dynamics.
- - The [`jax-spcs-kinematics`](https://github.com/tud-phi/jax-spcs-kinematics) repository contains an implementation
+ - The [`jax-spcs-kinematics`](https://github.com/phi-lab-research/jax-spcs-kinematics) repository contains an implementation
  of the Selective Piecewise Constant Strain (SPCS) kinematics in JAX. Our paper shows that this kinematic 
 model is suitable for representing the shape of HSA rods.
- - The [`HSA-PyElastica`](https://github.com/tud-phi/HSA-PyElastica) repository contains a plugin for PyElastica
+ - The [`HSA-PyElastica`](https://github.com/phi-lab-research/HSA-PyElastica) repository contains a plugin for PyElastica
 for the simulation of HSA robots.
